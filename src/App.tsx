@@ -82,7 +82,7 @@ function App() {
         </div>
 
         {isLoading ? (
-          <button className='w-full btn btn-primary text-white' disabled>
+          <button className='w-full btn btn-primary text-black' disabled>
             <span className="loading loading-spinner loading-sm"></span>
             Loading
           </button>
