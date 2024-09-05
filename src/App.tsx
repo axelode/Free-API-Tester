@@ -82,9 +82,9 @@ function App() {
         </div>
 
         {isLoading ? (
-          <button className='w-full btn btn-primary text-black' disabled>
+          <button className='w-full btn btn-primary text-white'>
             <span className="loading loading-spinner loading-sm"></span>
-            Loading
+            <span>Loading</span>
           </button>
         ) : (
           <button className='w-full btn btn-primary text-white' onClick={handleForm}>
